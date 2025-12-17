@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Photopea",
+    "url": "https://www.photopea.com",
+    "description": "Online photo editor that works like Photoshop.",
+    "loginRequired": false,
+    "freeType": "full",
+    "category": "Design"
+  },
+  {
+    "name": "Remove.bg",
+    "url": "https://www.remove.bg",
+    "description": "Automatically remove image backgrounds.",
+    "loginRequired": false,
+    "freeType": "tier",
+    "category": "Image Tools"
+  },
+  {
+    "name": "Canva",
+    "url": "https://www.canva.com",
+    "description": "Design platform with templates and tools.",
+    "loginRequired": true,
+    "freeType": "tier",
+    "category": "Design"
+  }
+]
