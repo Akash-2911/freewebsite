@@ -10,7 +10,7 @@ export default function Header() {
         </Link>
 
         {/* Navigation */}
-        <nav className="flex items-center gap-4">
+        <nav className="flex flex-wrap items-center gap-3 text-sm">
           <Link to="/home" className="text-gray-600 hover:text-black">
             Home
           </Link>

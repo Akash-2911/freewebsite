@@ -1,11 +1,13 @@
+import { useEffect } from "react";
+
 export default function Donate() {
-  // later this will redirect to Buy Me a Coffee
+  useEffect(() => {
+    window.location.href = "https://www.buymeacoffee.com/akash.patel";
+  }, []);
+
   return (
-    <div className="p-8">
-      <h1 className="text-2xl font-bold">Support the Project</h1>
-      <p className="mt-2 text-gray-600">
-        Redirecting to Buy Me a Coffee…
-      </p>
+    <div className="p-8 text-center">
+      Redirecting to Buy Me a Coffee…
     </div>
   );
 }
