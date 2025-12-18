@@ -1,16 +1,7 @@
-import { Helmet } from "react-helmet-async";
+
 
 export default function Submit() {
   return (
-    <>
-      <Helmet>
-        <title>Submit Your Website — freewebsite</title>
-        <meta
-          name="description"
-          content="Submit your free or free-tier website to be listed on freewebsite."
-        />
-      </Helmet>
-
       <div className="mx-auto max-w-3xl px-4 py-12">
         <h1 className="text-3xl font-bold">Submit Your Website</h1>
 
@@ -42,6 +33,5 @@ export default function Submit() {
           </a>
         </div>
       </div>
-    </>
   );
 }

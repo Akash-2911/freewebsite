@@ -1,17 +1,7 @@
 import { Link } from "react-router-dom";
-import { Helmet } from "react-helmet-async";
 
 export default function Landing() {
-  return (
-    <>
-      <Helmet>
-        <title>Discover Free Websites — freewebsite</title>
-        <meta
-          name="description"
-          content="Discover free and free-tier websites. No sign-up barriers. Clear transparency."
-        />
-      </Helmet>
-
+  return (>
       <div className="mx-auto max-w-6xl px-4">
         {/* HERO */}
         <section className="py-16 text-center">
@@ -89,7 +79,6 @@ export default function Landing() {
           </Link>
         </section>
       </div>
-    </>
   );
 }
 

@@ -1,5 +1,4 @@
 import { useState } from "react";
-import { Helmet } from "react-helmet-async";
 import sitesData from "../data/sites.json";
 import WebsiteCard from "../components/WebsiteCard";
 
@@ -33,15 +32,6 @@ export default function Home() {
   });
 
   return (
-    <>
-      <Helmet>
-        <title>Directory — freewebsite</title>
-        <meta
-          name="description"
-          content="Browse free and free-tier websites with search and filters."
-        />
-      </Helmet>
-
       <div className="mx-auto max-w-6xl px-4 py-10">
         <h1 className="text-3xl font-bold">Website Directory</h1>
 
@@ -89,7 +79,6 @@ export default function Home() {
           )}
         </div>
       </div>
-    </>
   );
 }
 
