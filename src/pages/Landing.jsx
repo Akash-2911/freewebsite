@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 
 export default function Landing() {
-  return (>
+  return (
       <div className="mx-auto max-w-6xl px-4">
         {/* HERO */}
         <section className="py-16 text-center">
