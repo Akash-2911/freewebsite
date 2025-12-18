@@ -24,7 +24,7 @@ export default function Submit() {
         </ol>
 
         <a
-          href="mailto:youremail@example.com?subject=Website Submission"
+          href="mailto:2911akashpatel@gmail.com?subject=Website Submission"
           className="mt-6 inline-block rounded-lg bg-black px-6 py-3 text-white hover:bg-gray-800"
         >
           Submit via Email
