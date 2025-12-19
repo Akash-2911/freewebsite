@@ -8,12 +8,13 @@ export default function Submit() {
         and login transparency. Submissions are reviewed manually.
       </p>
 
-      <form
-        name="website-submission"
-        method="POST"
-        data-netlify="true"
-        className="mt-8 space-y-4"
-      >
+<form
+  name="website-submission"
+  method="POST"
+  data-netlify="true"
+  action="/submit"
+  className="mt-8 space-y-4"
+>
         <input type="hidden" name="form-name" value="website-submission" />
 
         <input

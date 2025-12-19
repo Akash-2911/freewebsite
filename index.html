@@ -37,6 +37,20 @@
 </head>
 
   <body>
+    <form
+  name="website-submission"
+  method="POST"
+  data-netlify="true"
+  hidden
+>
+  <input type="hidden" name="form-name" value="website-submission" />
+  <input type="text" name="name" />
+  <input type="text" name="url" />
+  <textarea name="description"></textarea>
+  <select name="login"></select>
+  <select name="freeType"></select>
+</form>
+
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
   </body>
