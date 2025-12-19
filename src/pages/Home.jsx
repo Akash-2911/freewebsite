@@ -63,6 +63,21 @@ export default function Home() {
         </select>
       </div>
 
+{/* Sponsored banner placeholder */}
+<div className="mt-8 rounded-xl border border-dashed bg-gray-50 p-6 text-center">
+  <h3 className="text-lg font-semibold">Advertise here</h3>
+  <p className="mt-2 text-sm text-gray-600">
+    Promote your product to users looking for free and useful tools.
+  </p>
+  <a
+    href="mailto:2911akashpatel@gmail.com?subject=Advertising on freewebsite"
+    className="mt-4 inline-block rounded-lg bg-black px-5 py-2 text-white hover:bg-gray-800"
+  >
+    Get your ad here
+  </a>
+</div>
+
+
       {/* Result count */}
       <p className="mt-6 text-sm text-gray-600">
         Showing <span className="font-medium">{filteredSites.length}</span>{" "}
