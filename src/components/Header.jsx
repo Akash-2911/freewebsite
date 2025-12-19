@@ -1,29 +1,39 @@
 import { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 
 export default function Header() {
   const [open, setOpen] = useState(false);
+  const location = useLocation();
 
   return (
-    <header className="border-b bg-white">
+    <header className="sticky top-0 z-50 border-b bg-white/90 backdrop-blur">
       <div className="mx-auto max-w-6xl px-4">
         <div className="flex h-14 items-center justify-between">
           {/* Brand */}
-          <Link to="/" className="text-xl font-bold">
+          <Link
+            to="/"
+            className="text-xl font-bold tracking-tight transition hover:opacity-80"
+          >
             freewebsite
           </Link>
 
           {/* Desktop Nav */}
-          <nav className="hidden items-center gap-4 text-sm md:flex">
-            <NavLink to="/home">Home</NavLink>
-            <NavLink to="/about">About</NavLink>
-            <NavLink to="/submit">Submit</NavLink>
+          <nav className="hidden items-center gap-5 text-sm md:flex">
+            <NavLink to="/home" active={location.pathname === "/home"}>
+              Home
+            </NavLink>
+            <NavLink to="/about" active={location.pathname === "/about"}>
+              About
+            </NavLink>
+            <NavLink to="/submit" active={location.pathname === "/submit"}>
+              Submit
+            </NavLink>
 
             <a
               href="https://www.buymeacoffee.com/akash.patel"
               target="_blank"
               rel="noreferrer"
-              className="rounded-lg bg-yellow-400 px-3 py-1.5 font-semibold text-black hover:bg-yellow-500"
+              className="rounded-lg bg-yellow-400 px-3 py-1.5 font-semibold text-black transition hover:scale-105 hover:bg-yellow-500"
             >
               Buy me a coffee
             </a>
@@ -32,7 +42,7 @@ export default function Header() {
           {/* Mobile Menu Button */}
           <button
             onClick={() => setOpen(!open)}
-            className="md:hidden rounded-lg border px-3 py-2 text-sm"
+            className="md:hidden rounded-lg border px-3 py-2 text-sm transition hover:bg-gray-50"
             aria-label="Toggle menu"
           >
             ☰
@@ -41,7 +51,7 @@ export default function Header() {
 
         {/* Mobile Menu */}
         {open && (
-          <div className="md:hidden border-t py-4 space-y-3">
+          <div className="md:hidden animate-fade-in border-t py-4 space-y-3">
             <MobileLink to="/home" onClick={() => setOpen(false)}>
               Home
             </MobileLink>
@@ -56,7 +66,7 @@ export default function Header() {
               href="https://www.buymeacoffee.com/akash.patel"
               target="_blank"
               rel="noreferrer"
-              className="block rounded-lg bg-yellow-400 px-4 py-2 text-center font-semibold text-black hover:bg-yellow-500"
+              className="block rounded-lg bg-yellow-400 px-4 py-2 text-center font-semibold text-black transition hover:bg-yellow-500"
             >
               Buy me a coffee
             </a>
@@ -67,9 +77,16 @@ export default function Header() {
   );
 }
 
-function NavLink({ to, children }) {
+function NavLink({ to, active, children }) {
   return (
-    <Link to={to} className="text-gray-600 hover:text-black">
+    <Link
+      to={to}
+      className={`transition ${
+        active
+          ? "font-medium text-black"
+          : "text-gray-600 hover:text-black"
+      }`}
+    >
       {children}
     </Link>
   );
@@ -80,7 +97,7 @@ function MobileLink({ to, onClick, children }) {
     <Link
       to={to}
       onClick={onClick}
-      className="block px-2 text-gray-700 hover:text-black"
+      className="block px-2 text-gray-700 transition hover:text-black"
     >
       {children}
     </Link>
