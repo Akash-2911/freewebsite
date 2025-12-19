@@ -46,7 +46,7 @@ export default function About() {
       <div className="mt-4 flex flex-col gap-3 sm:flex-row">
         {/* GitHub */}
         <a
-          href="https://github.com/akashpatel"
+          href="https://github.com/Akash-2911"
           target="_blank"
           rel="noreferrer"
           className="flex items-center gap-2 text-gray-700 hover:text-black"
@@ -63,12 +63,12 @@ export default function About() {
               clipRule="evenodd"
             />
           </svg>
-          <span>GitHub — Akash Patel</span>
+          <span>GitHub — Akash-2911</span>
         </a>
 
         {/* LinkedIn */}
         <a
-          href="https://www.linkedin.com/in/akashpatel"
+          href="https://www.linkedin.com/in/akashpatel29/"
           target="_blank"
           rel="noreferrer"
           className="flex items-center gap-2 text-gray-700 hover:text-black"
