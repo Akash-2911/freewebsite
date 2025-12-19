@@ -7,6 +7,10 @@ export default function Submit() {
         We list only free or free-tier websites with clear usage limits
         and login transparency. Submissions are reviewed manually.
       </p>
+<p className="mt-2 text-sm text-gray-500">
+  Free and free-tier websites are listed at no cost.
+  Paid-only tools may require a sponsorship or listing fee.
+</p>
 
 <form
   name="website-submission"
