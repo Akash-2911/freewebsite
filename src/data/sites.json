@@ -1,19 +1,11 @@
 [
   {
     "name": "Photopea",
-    "url": "https://www.photopea.com",
+    "url": "https://photopea.com",
     "description": "Online photo editor that works like Photoshop.",
     "loginRequired": false,
     "freeType": "full",
-    "category": "Design"
-  },
-  {
-    "name": "Remove.bg",
-    "url": "https://www.remove.bg",
-    "description": "Automatically remove image backgrounds.",
-    "loginRequired": false,
-    "freeType": "tier",
-    "category": "Image Tools"
+   "category": "Design & UI"
   },
   {
     "name": "Canva",
@@ -21,6 +13,246 @@
     "description": "Design platform with templates and tools.",
     "loginRequired": true,
     "freeType": "tier",
-    "category": "Design"
+    "category": "Design & UI"
+  },
+  {
+    "name": "DevDocs",
+    "url": "https://devdocs.io",
+    "description": "All-in-one API documentation browser for developers.",
+    "category": "Developer Tools",
+    "loginRequired": false,
+    "freeType": "full"
+  },
+  {
+    "name": "JSFiddle",
+    "url": "https://jsfiddle.net",
+    "description": "Online playground for testing JavaScript, HTML, and CSS.",
+    "category": "Developer Tools",
+    "loginRequired": false,
+    "freeType": "full"
+  },
+  {
+    "name": "JSON Formatter",
+    "url": "https://jsonformatter.org",
+    "description": "Format, validate, and beautify JSON data online.",
+    "category": "Developer Tools",
+    "loginRequired": false,
+    "freeType": "full"
+  },
+  {
+    "name": "Heroicons",
+    "url": "https://heroicons.com",
+    "description": "Free, open-source SVG icons by the Tailwind CSS team.",
+    "category": "Design & UI",
+    "loginRequired": false,
+    "freeType": "full"
+  },
+  {
+    "name": "Tabler Icons",
+    "url": "https://tabler-icons.io",
+    "description": "Large set of free and open-source SVG icons.",
+    "category": "Design & UI",
+    "loginRequired": false,
+    "freeType": "full"
+  },
+  {
+    "name": "Haikei",
+    "url": "https://haikei.app",
+    "description": "Generate unique SVG backgrounds and shapes.",
+    "category": "Design & UI",
+    "loginRequired": false,
+    "freeType": "full"
+  },
+  {
+    "name": "Coolors",
+    "url": "https://coolors.co",
+    "description": "Fast and easy color palette generator.",
+    "category": "Design & UI",
+    "loginRequired": false,
+    "freeType": "full"
+  },
+  {
+    "name": "Excalidraw",
+    "url": "https://excalidraw.com",
+    "description": "Hand-drawn style whiteboard and diagram tool.",
+    "category": "Productivity",
+    "loginRequired": false,
+    "freeType": "full"
+  },
+  {
+    "name": "TinyWow",
+    "url": "https://tinywow.com",
+    "description": "Free online tools for PDFs, images, and files.",
+    "category": "Productivity",
+    "loginRequired": false,
+    "freeType": "full"
+  },
+  {
+    "name": "Roadmap.sh",
+    "url": "https://roadmap.sh",
+    "description": "Community-driven roadmaps for developers.",
+    "category": "Learning & Education",
+    "loginRequired": false,
+    "freeType": "full"
+  },
+  {
+    "name": "Regex101",
+    "url": "https://regex101.com",
+    "description": "Test and debug regular expressions with explanations.",
+    "category": "Developer Tools",
+    "loginRequired": false,
+    "freeType": "tier"
+  },
+  {
+    "name": "Hoppscotch",
+    "url": "https://hoppscotch.io",
+    "description": "Open-source API client for testing REST and GraphQL APIs.",
+    "category": "Developer Tools",
+    "loginRequired": false,
+    "freeType": "full"
+  },
+  {
+    "name": "CyberChef",
+    "url": "https://gchq.github.io/CyberChef",
+    "description": "Web-based tool for data analysis and encoding/decoding.",
+    "category": "Developer Tools",
+    "loginRequired": false,
+    "freeType": "full"
+  },
+  {
+    "name": "It-Tools",
+    "url": "https://it-tools.tech",
+    "description": "Collection of handy online tools for developers and IT tasks.",
+    "category": "Developer Tools",
+    "loginRequired": false,
+    "freeType": "full"
+  },
+  {
+    "name": "JSON Crack",
+    "url": "https://jsoncrack.com",
+    "description": "Visualize and explore JSON data as interactive graphs.",
+    "category": "Developer Tools",
+    "loginRequired": false,
+    "freeType": "tier"
+  },
+  {
+    "name": "Temp Mail",
+    "url": "https://temp-mail.org",
+    "description": "Generate temporary email addresses instantly.",
+    "category": "Productivity",
+    "loginRequired": false,
+    "freeType": "full"
+  },
+  {
+    "name": "Remove.bg",
+    "url": "https://remove.bg",
+    "description": "Remove image backgrounds automatically using AI.",
+    "category": "Design & UI",
+    "loginRequired": false,
+    "freeType": "tier"
+  },
+  {
+    "name": "Perplexity AI",
+    "url": "https://perplexity.ai",
+    "description": "AI-powered search engine for answers with sources.",
+    "category": "AI & Automation",
+    "loginRequired": false,
+    "freeType": "tier"
+  },
+  {
+    "name": "ChatPDF",
+    "url": "https://chatpdf.com",
+    "description": "Ask questions and summarize PDF documents using AI.",
+    "category": "AI & Automation",
+    "loginRequired": false,
+    "freeType": "tier"
+  },
+  {
+    "name": "Excalidraw Libraries",
+    "url": "https://libraries.excalidraw.com",
+    "description": "Community-contributed libraries for Excalidraw diagrams.",
+    "category": "Design & UI",
+    "loginRequired": false,
+    "freeType": "full"
+  },
+  {
+    "name": "Netlify Drop",
+    "url": "https://app.netlify.com/drop",
+    "description": "Drag and drop static files to instantly deploy a website.",
+    "category": "Hosting & Deployment",
+    "loginRequired": true,
+    "freeType": "full"
+  },
+  {
+    "name": "Vercel",
+    "url": "https://vercel.com",
+    "description": "Frontend hosting platform with generous free tier.",
+    "category": "Hosting & Deployment",
+    "loginRequired": true,
+    "freeType": "tier"
+  },
+  {
+    "name": "Carrd",
+    "url": "https://carrd.co",
+    "description": "Build simple one-page websites quickly.",
+    "category": "Website Builders",
+    "loginRequired": true,
+    "freeType": "tier"
+  },
+  {
+    "name": "GitHub Pages",
+    "url": "https://pages.github.com",
+    "description": "Host static websites directly from GitHub repositories.",
+    "category": "Hosting & Deployment",
+    "loginRequired": true,
+    "freeType": "full"
+  },
+  {
+    "name": "FreeCodeCamp",
+    "url": "https://freecodecamp.org",
+    "description": "Learn to code with interactive lessons and projects.",
+    "category": "Learning & Education",
+    "loginRequired": true,
+    "freeType": "full"
+  },
+  {
+    "name": "RegexOne",
+    "url": "https://regexone.com",
+    "description": "Interactive lessons to learn regular expressions.",
+    "category": "Learning & Education",
+    "loginRequired": false,
+    "freeType": "full"
+  },
+  {
+    "name": "Open Assistant",
+    "url": "https://open-assistant.io",
+    "description": "Open-source conversational AI assistant.",
+    "category": "AI & Automation",
+    "loginRequired": false,
+    "freeType": "tier"
+  },
+  {
+    "name": "Whisper Web",
+    "url": "https://whisper-web.netlify.app",
+    "description": "Browser-based speech-to-text demo using OpenAI Whisper.",
+    "category": "AI & Automation",
+    "loginRequired": false,
+    "freeType": "full"
+  },
+  {
+    "name": "DevToys Web",
+    "url": "https://devtoys.app",
+    "description": "Collection of small developer utilities in the browser.",
+    "category": "Developer Tools",
+    "loginRequired": false,
+    "freeType": "full"
+  },
+  {
+    "name": "12ft Ladder",
+    "url": "https://12ft.io",
+    "description": "Clean reading view for articles with heavy paywalls.",
+    "category": "Productivity",
+    "loginRequired": false,
+    "freeType": "full"
   }
 ]
